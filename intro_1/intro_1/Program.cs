@@ -13,12 +13,7 @@ namespace intro_1
             Console.WriteLine("This is a string");
 
             Class1.my_method1();
-
             
-
-                
-
-
 
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
