@@ -9,16 +9,15 @@ namespace intro_1
     class Bubble_sort_example
     {
 
-        public static List< int > Bubble_sort(List<int> tosort)
+        public static List<T> Bubble_sort<T>(List<T> tosort) where T: IComparable
         {
-            int t;
-
+            T t;
 
             for (int p = 0; p <= tosort.Count - 2; p++)
             {
                 for (int i = 0; i <= tosort.Count - 2; i++)
                 {
-                    if (tosort[i] > tosort[i + 1])
+                    if (tosort[i].CompareTo(tosort[i+1]) > 0)
                     {
                         t = tosort[i + 1];
                         tosort[i + 1] = tosort[i];

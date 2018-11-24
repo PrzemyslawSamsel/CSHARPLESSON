@@ -44,7 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bubble_sort_example.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Class_for_sorting.cs" />
+    <Compile Include="Worker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
